@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gdsc_task_one/const/color.dart';
 import 'package:gdsc_task_one/const/icons.dart';
 import 'package:gdsc_task_one/widgets/scrreen_one.dart';
+import 'package:gdsc_task_one/widgets/scrreen_three.dart';
 import 'package:gdsc_task_one/widgets/scrreen_tow.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(),
-      home: const AuthPage(),
+      home: const SignIn(),
     );
   }
 }
